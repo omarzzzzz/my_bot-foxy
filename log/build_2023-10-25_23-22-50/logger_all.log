@@ -1,0 +1,102 @@
+[12.837s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[12.837s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f021c532980>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f021c9dbe50>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f021c9dbe50>>)
+[13.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[13.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[13.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[13.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[13.365s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[13.366s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[13.366s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/omarsalah/grad_ws/src/my_bot'
+[13.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[13.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[13.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[13.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[13.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[13.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[13.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[13.366s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[13.367s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[13.454s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'my_bot'
+[13.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[13.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[13.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[13.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[13.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[13.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[13.957s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[14.086s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/omarsalah/grad_ws/src/my_bot/install
+[14.121s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 381 installed packages in /opt/ros/humble
+[14.125s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[14.422s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
+[14.422s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
+[14.422s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[14.422s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[14.422s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
+[14.422s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
+[14.423s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
+[14.423s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[14.423s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[14.423s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/omarsalah/grad_ws/src/my_bot/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/omarsalah/grad_ws/src/my_bot/install/my_bot', 'merge_install': False, 'path': '/home/omarsalah/grad_ws/src/my_bot', 'symlink_install': True, 'test_result_base': None}
+[14.456s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[14.499s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[14.499s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/omarsalah/grad_ws/src/my_bot' with build type 'ament_cmake'
+[14.499s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/omarsalah/grad_ws/src/my_bot'
+[14.814s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[14.815s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.816s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/omarsalah/grad_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omarsalah/grad_ws/src/my_bot/build/my_bot -- -j4 -l4
+[15.871s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/omarsalah/grad_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/omarsalah/grad_ws/src/my_bot/build/my_bot -- -j4 -l4
+[15.923s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/omarsalah/grad_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omarsalah/grad_ws/src/my_bot/build/my_bot
+[16.107s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[16.109s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/omarsalah/grad_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/omarsalah/grad_ws/src/my_bot/build/my_bot
+[16.263s] Level 1:colcon.colcon_core.environment:checking '/home/omarsalah/grad_ws/src/my_bot/install/my_bot' for CMake module files
+[16.265s] Level 1:colcon.colcon_core.environment:checking '/home/omarsalah/grad_ws/src/my_bot/install/my_bot' for CMake config files
+[16.266s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[16.308s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[16.341s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[16.356s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[16.360s] Level 1:colcon.colcon_core.environment:checking '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/bin'
+[16.360s] Level 1:colcon.colcon_core.environment:checking '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/lib/pkgconfig/my_bot.pc'
+[16.361s] Level 1:colcon.colcon_core.environment:checking '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/lib/python3.10/site-packages'
+[16.362s] Level 1:colcon.colcon_core.environment:checking '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/bin'
+[16.409s] INFO:colcon.colcon_core.shell:Creating package script '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/package.ps1'
+[16.412s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/package.dsv'
+[16.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/package.sh'
+[16.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/package.bash'
+[16.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/package.zsh'
+[16.430s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/colcon-core/packages/my_bot)
+[16.509s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
+[16.542s] Level 1:colcon.colcon_core.environment:checking '/home/omarsalah/grad_ws/src/my_bot/install/my_bot' for CMake module files
+[16.544s] Level 1:colcon.colcon_core.environment:checking '/home/omarsalah/grad_ws/src/my_bot/install/my_bot' for CMake config files
+[16.545s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_bot', 'cmake_prefix_path')
+[16.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/hook/cmake_prefix_path.ps1'
+[16.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/hook/cmake_prefix_path.dsv'
+[16.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/hook/cmake_prefix_path.sh'
+[16.591s] Level 1:colcon.colcon_core.environment:checking '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/bin'
+[16.592s] Level 1:colcon.colcon_core.environment:checking '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/lib/pkgconfig/my_bot.pc'
+[16.592s] Level 1:colcon.colcon_core.environment:checking '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/lib/python3.10/site-packages'
+[16.593s] Level 1:colcon.colcon_core.environment:checking '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/bin'
+[16.629s] INFO:colcon.colcon_core.shell:Creating package script '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/package.ps1'
+[16.630s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/package.dsv'
+[16.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/package.sh'
+[16.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/package.bash'
+[16.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/package.zsh'
+[16.637s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/colcon-core/packages/my_bot)
+[16.639s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.639s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.640s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.640s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.762s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.792s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.844s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omarsalah/grad_ws/src/my_bot/install/local_setup.ps1'
+[16.855s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/omarsalah/grad_ws/src/my_bot/install/_local_setup_util_ps1.py'
+[16.862s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omarsalah/grad_ws/src/my_bot/install/setup.ps1'
+[16.924s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omarsalah/grad_ws/src/my_bot/install/local_setup.sh'
+[16.928s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/omarsalah/grad_ws/src/my_bot/install/_local_setup_util_sh.py'
+[16.930s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omarsalah/grad_ws/src/my_bot/install/setup.sh'
+[16.978s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omarsalah/grad_ws/src/my_bot/install/local_setup.bash'
+[16.980s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omarsalah/grad_ws/src/my_bot/install/setup.bash'
+[17.016s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/omarsalah/grad_ws/src/my_bot/install/local_setup.zsh'
+[17.018s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/omarsalah/grad_ws/src/my_bot/install/setup.zsh'
