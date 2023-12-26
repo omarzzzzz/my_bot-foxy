@@ -1,0 +1,53 @@
+[0.708s] Invoking command in '/home/omarsalah/grad_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omarsalah/install/ros2_motion:/home/omarsalah/install/py_pubsub:/home/omarsalah/grad_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/omarsalah/grad_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/omarsalah/grad_ws/src/my_bot/install/my_bot
+[0.855s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.510s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.552s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.910s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.485s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.485s] -- Configured cppcheck include dirs: 
+[2.486s] -- Configured cppcheck exclude dirs and/or files: 
+[2.688s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.688s] -- Configured cpplint exclude dirs and/or files: 
+[2.699s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.750s] -- Added test 'lint_cmake' to check CMake code style
+[2.774s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.935s] -- Added test 'uncrustify' to check C / C++ code style
+[2.935s] -- Configured uncrustify additional arguments: 
+[2.970s] -- Added test 'xmllint' to check XML markup files
+[2.990s] -- Configuring done
+[3.033s] -- Generating done
+[3.042s] -- Build files have been written to: /home/omarsalah/grad_ws/src/my_bot/build/my_bot
+[3.044s] Invoked command in '/home/omarsalah/grad_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omarsalah/install/ros2_motion:/home/omarsalah/install/py_pubsub:/home/omarsalah/grad_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/omarsalah/grad_ws/src/my_bot -DCMAKE_INSTALL_PREFIX=/home/omarsalah/grad_ws/src/my_bot/install/my_bot
+[3.053s] Invoking command in '/home/omarsalah/grad_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omarsalah/install/ros2_motion:/home/omarsalah/install/py_pubsub:/home/omarsalah/grad_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/omarsalah/grad_ws/src/my_bot/build/my_bot -- -j4 -l4
+[3.253s] Invoked command in '/home/omarsalah/grad_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omarsalah/install/ros2_motion:/home/omarsalah/install/py_pubsub:/home/omarsalah/grad_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/omarsalah/grad_ws/src/my_bot/build/my_bot -- -j4 -l4
+[3.391s] Invoking command in '/home/omarsalah/grad_ws/src/my_bot/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omarsalah/install/ros2_motion:/home/omarsalah/install/py_pubsub:/home/omarsalah/grad_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/omarsalah/grad_ws/src/my_bot/build/my_bot
+[3.428s] -- Install configuration: ""
+[3.434s] -- Execute custom install script
+[3.434s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/config/empty.yaml
+[3.435s] -- Symlinking: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/config/my_controllers.yaml
+[3.468s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/config/view_bot.rviz
+[3.470s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/description/camera.xacro
+[3.472s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[3.472s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[3.473s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/description/lidar.xacro
+[3.473s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[3.475s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/description/robot_core.xacro
+[3.476s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[3.476s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/launch/rsp.launch.py
+[3.476s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/worlds/empty.world
+[3.484s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[3.484s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[3.485s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[3.488s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[3.490s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.sh
+[3.491s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/environment/path.dsv
+[3.491s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.bash
+[3.491s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.sh
+[3.492s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.zsh
+[3.492s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/local_setup.dsv
+[3.492s] -- Symlinking: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/package.dsv
+[3.522s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[3.523s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[3.523s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[3.535s] -- Up-to-date symlink: /home/omarsalah/grad_ws/src/my_bot/install/my_bot/share/my_bot/package.xml
+[3.536s] Invoked command in '/home/omarsalah/grad_ws/src/my_bot/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/omarsalah/install/ros2_motion:/home/omarsalah/install/py_pubsub:/home/omarsalah/grad_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/omarsalah/grad_ws/src/my_bot/build/my_bot
